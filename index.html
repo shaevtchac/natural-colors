@@ -117,23 +117,23 @@
 
       <p class="h2 text-center mb-10">OZNACZENIA KOLORÓW</p>
 
-      <div class="flex">
+      <div class="flex justify-center">
         <div>
           <div class=" h-4 border-2 border-primary border-b-transparent">
-            <p class="font-bold w-4/5 text-center mx-auto bg-white -mt-3">TON</p>
+            <p class="font-bold mx-4 px-4 text-center bg-white -mt-3">TON</p>
           </div>
-          <div></div>
+          <div data-animation="num1" data-duration="3s" data-timing="cubic-bezier(0,0,0,1)" class="before:[content:counter(num1)] text-center text-primary font-bold leading-none text-[7em] [counter-reset:num1_var(--num1)]"></div>
         </div>
-        <div>.</div>
+        <div class="text-center text-primary font-bold text-[7em] leading-tight -ml-4">.</div>
         <div>
           <DIV class=" h-4 border-2 border-primary border-b-transparent">
-            <p class="font-bold w-4/5 text-center mx-auto bg-white -mt-3">REFRLEKS</p>
+            <p class="font-bold mx-4 px-4 text-center bg-white -mt-3">REFLEKS</p>
           </DIV>
-          <div></div>
+          <div data-animation="num2" data-duration="3s" data-timing="cubic-bezier(0,0,0,1)" class="before:[content:counter(num2)] text-center text-primary font-bold leading-none text-[7em] [counter-reset:num2_var(--num2)]"></div>
         </div>
       </div>
 
-      <p>jasny brąz, mahoniowo-złocisty</p>
+      <p data-animation="fade-in" data-delay="3s" class="text-center">Jasny brąz, mahoniowo-złocisty</p>
       
       
     </div>
@@ -143,27 +143,34 @@
                                                                                 x
                                                                             xxxxx
 -->
-    <div class="w-10/12 mx-auto mt-20">
-      10 BARDZO BARDZO JASNY BLOND
-      9 BARDZO JASNY BLOND
-      8 JASNY BLOND
-      7 BLOND
-      6 CIEMNY BLOND
-      5 JASNY BRĄZ
-      4 BRĄZ
-      3 CIEMNY BRĄZ
-      2 BARDZO CIEMNY BRĄZ
-      1 CZARNY
+    <div class="w-10/12 mx-auto mt-6">
+      <div class="grid gap-4">
+        <div class="grid grid-cols-2 gap-2 font-bold text-white text-[0.9em] [text-shadow:1px_1px_2px_black] ">
+          <span class="bg-[url(img/51.jpg)] bg-no-repeat bg-auto px-2 py-2 tracking-tight">10 BARDZO BARDZO JASNY BLOND</span>
+          <span class="bg-[url(img/52.jpg)] bg-no-repeat bg-cover px-2 py-2">9 BARDZO JASNY BLOND</span>
+          <span class="bg-[url(img/53.jpg)] bg-no-repeat bg-cover px-2 py-2">8 JASNY BLOND</span>
+          <span class="bg-[url(img/54.jpg)] bg-no-repeat bg-cover px-2 py-2">7 BLOND</span>
+          <span class="bg-[url(img/55.jpg)] bg-no-repeat bg-cover px-2 py-2">6 CIEMNY BLOND</span>
+          <span class="bg-[url(img/56.jpg)] bg-no-repeat bg-cover px-2 py-2">5 JASNY BRĄZ</span>
+          <span class="bg-[url(img/57.jpg)] bg-no-repeat bg-cover px-2 py-2">4 BRĄZ</span>
+          <span class="bg-[url(img/58.jpg)] bg-no-repeat bg-cover px-2 py-2">3 CIEMNY BRĄZ</span>
+          <span class="bg-[url(img/59.jpg)] bg-no-repeat bg-cover px-2 py-2">2 BARDZO CIEMNY BRĄZ</span>
+          <span class="bg-[url(img/510.jpg)] bg-no-repeat bg-cover px-2 py-2">1 CZARNY</span>
+        </div>
 
-      0 NEUTRALNY e5e5e5
-      1 POPIELATY 83d0f5
-      2 OPALIZUJĄCY ab8cc0
-      3 ZŁOTY fccb8d
-      4 MIEDZIANY f28d4f
-      5 MAHONIOWY a7001c
-      6 CZERWONY e30613
-      7 ZIELONY 86c06a
-      8 MOCCA 9f4407
+        <div class="grid grid-cols-2 gap-2 font-bold  text-[0.9em]">
+          <span class="bg-[#e5e5e5] p-2">0 NEUTRALNY</span>
+          <span class="bg-[#83d0f5] p-2">1 POPIELATY</span>
+          <span class="bg-[#ab8cc0] p-2">2 OPALIZUJĄCY</span>
+          <span class="bg-[#fccb8d] p-2">3 ZŁOTY</span>
+          <span class="bg-[#f28d4f] p-2">4 MIEDZIANY</span>
+          <span class="bg-[#a7001c] p-2">5 MAHONIOWY</span>
+          <span class="bg-[#e30613] p-2">6 CZERWONY</span>
+          <span class="bg-[#86c06a] p-2">7 ZIELONY</span>
+          <span class="bg-[#9f4407] p-2">8 MOCCA</span>
+        </div>
+      </div>
+
     </div>
     <!--                                                                    x6xxx
                                                                             x
@@ -172,32 +179,48 @@
                                                                             xxxxx
 -->
     <div class="w-10/12 mx-auto mt-20">
-      <p class="h2">
+      <p class="h2 mb-8 text-center">
         PRZYGOTOWANIE MIESZANKI
       </p>
-      Krok 1
-      Załóż rękawiczki
 
-      Krok 2
-      Odkręć zakrętkę buteleczki
-z utleniaczem.
+      <div class="flex justify-center flex-wrap gap-4 text-[.9em]">
 
-      Krok 3
-      W miseczce umieść całą lub połowę buteleczki
-(w zależności
-od przypadku).
+        <div class="min-w-[150px] max-w-[200px] flex-1 relative group">
+          <span class="absolute text-[7em] leading-none font-bold text-primary opacity-20 group-hover:animate-wiggle">1</span>
+          <p class="font-bold mt-12 relative">Krok 1</p>
+          <p class="relative">Załóż rękawiczki</p>
+        </div>
 
-      Krok 4
-      Przebij tubkę górną częścią nakrętki.
+        <div class="min-w-[150px] max-w-[200px] flex-1 relative group">
+          <span class="absolute text-[7em] leading-none font-bold text-primary opacity-20 group-hover:animate-wiggle">2</span>
+          <p class="font-bold mt-12 relative">Krok 2</p>
+          <p class="relative">Odkręć zakrętkę buteleczki z utleniaczem.</p>
+        </div>
 
-      Krok 5
-      Wyciśnij całą lub połowę tubki
-(w zależności
-od przypadku).
+        <div class="min-w-[150px] max-w-[200px] flex-1 relative group">
+          <span class="absolute text-[7em] leading-none font-bold text-primary opacity-20 group-hover:animate-wiggle">3</span>
+          <p class="font-bold mt-12 relative">Krok 3</p>
+          <p class="relative">W miseczce umieść całą lub połowę buteleczki (w zależności od przypadku).</p>
+        </div>
 
-      Krok 6
-      Za pomocą pędzla do koloryzacji dobrze wymieszaj aby mieszanka miała gładką konsystencję.
+        <div class="min-w-[150px] max-w-[200px] flex-1 relative group">
+          <span class="absolute text-[7em] leading-none font-bold text-primary opacity-20 group-hover:animate-wiggle">4</span>
+          <p class="font-bold mt-12 relative">Krok 4</p>
+          <p class="relative">Przebij tubkę górną częścią nakrętki.</p>
+        </div>
 
+        <div class="min-w-[150px] max-w-[200px] flex-1 relative group">
+          <span class="absolute text-[7em] leading-none font-bold text-primary opacity-20 group-hover:animate-wiggle">5</span>
+          <p class="font-bold mt-12 relative">Krok 5</p>
+          <p class="relative">Wyciśnij całą lub połowę tubki (w zależności od przypadku).</p>
+        </div>
+
+        <div class="min-w-[150px] max-w-[200px] flex-1 relative group">
+          <span class="absolute text-[7em] leading-none font-bold text-primary opacity-20 group-hover:animate-wiggle">6</span>
+          <p class="font-bold mt-12 relative">Krok 6</p>
+          <p class="relative">Za pomocą pędzla do koloryzacji dobrze wymieszaj aby mieszanka miała gładką konsystencję.</p>
+        </div>
+      </div>
     </div>
     <!--                                                                    x7xxx
                                                                                 x
@@ -205,38 +228,161 @@ od przypadku).
                                                                               x
                                                                              x
 -->
-    <div class="w-10/12 mx-auto mt-20">
-      <p class="h2">WYBIERZ SWÓJ ODCIEŃ</p>
-      1 CZARNY
-      1+ INTENSYWNA CZERŃ
-      1.10 GRANATOWA CZERŃ
-      2.0 BARDZO CIEMNY BRĄZ
-      2.10 JAGODOWA CZERŃ
-      3 CIEMNY BRĄZ
-      3.3 CIEMNA CZEKOLADA
-      3.12 MROŹNY BRĄZ
-      3.23 OPALIZUJĄCY CIEMNY BRĄZ
-      4 BRĄZ
-      4.00 GŁĘBOKI CIEMNY BRĄZ
-      4.3 ZŁOTY BRĄZ
-      4.12 LODOWY BRĄZ
-      4.15 MROŹNY KASZTAN
-      4.60 OGNISTA CIEMNA CZERWIEŃ
-      4.62 SŁODKA WIŚNIA
-      5 JASNY BRĄZ
-      5.00 GŁĘBOKI ŚREDNI BRĄZ
-      5.1/2 KREMOWA KAWA
-      5.12 ZIMNY BRĄZ
-      5.15 GORZKA CZEKOLADA
-      5.25 JASNY OPALIZUJĄCY KASZTAN
-      5.52 OPALIZUJĄCY MAHOŃ
-      10 BARDZO BARDZO JASNY BLOND
-      102 LODOWY OPALIZUJĄCY BLOND
-      111 SUPERJASNY POPIELATY BLOND
-      113 SUPERJASNY BEŻOWY BLOND
-      1000 NATURALNY ULTRA BLOND
-      1001 POPIELATY ULTRA BLOND
-      1002 OPALIZUJĄCY ULTRA BLOND
+    <div class="mt-20">
+      <p class="h2 text-center mb-10">WYBIERZ SWÓJ ODCIEŃ</p>
+      <div class="flex justify-center flex-wrap gap-[1px] font-bold text-white">
+        
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/71.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">1 CZARNY</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/72.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">1+ INTENSYWNA CZERŃ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/73.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">1.10 GRANATOWA CZERŃ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/74.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">2.0 BARDZO CIEMNY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/75.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">2.10 JAGODOWA CZERŃ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/76.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">3 CIEMNY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/77.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">3.3 CIEMNA CZEKOLADA</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/78.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">3.12 MROŹNY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/79.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">3.23 OPALIZUJĄCY CIEMNY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/710.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">4 BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/711.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">4.00 GŁĘBOKI CIEMNY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/712.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">4.3 ZŁOTY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/713.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">4.12 LODOWY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/714.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">4.15 MROŹNY KASZTAN</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/715.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">4.60 OGNISTA CIEMNA CZERWIEŃ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/716.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">4.62 SŁODKA WIŚNIA</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/717.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">5 JASNY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/718.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">5.00 GŁĘBOKI ŚREDNI BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/719.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">5.1/2 KREMOWA KAWA</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/720.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">5.12 ZIMNY BRĄZ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/721.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">5.15 GORZKA CZEKOLADA</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/722.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">5.25 JASNY OPALIZUJĄCY KASZTAN</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/723.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative">5.52 OPALIZUJĄCY MAHOŃ</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/724.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative text-black">10 BARDZO BARDZO JASNY BLOND</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/725.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative text-black">102 LODOWY OPALIZUJĄCY BLOND</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/726.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative text-black">111 SUPERJASNY POPIELATY BLOND</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/727.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative text-black">113 SUPERJASNY BEŻOWY BLOND</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/728.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative text-black">1000 NATURALNY ULTRA BLOND</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/729.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative text-black">1001 POPIELATY ULTRA BLOND</p>
+        </div>
+
+        <div class="relative w-[239px] h-[160px] p-3 group overflow-hidden">
+          <img src="img/730.jpg" alt="" class="absolute inset-0 group-hover:scale-110 transition-all duration-500">
+          <p class="relative text-black">1002 OPALIZUJĄCY ULTRA BLOND</p>
+        </div>
+
+      </div>
     </div>
     <!--                                                                    x8xxx
                                                                             x   x
@@ -244,7 +390,9 @@ od przypadku).
                                                                             x   x
                                                                             xxxxx
 -->
-    <div class="w-10/12 mx-auto mt-20"></div>
+    <div class="bg-primary mt-20 p-3">
+      <img src="img/81.png" alt="logotypes" class="mx-auto max-w-[70vw]">
+    </div>
     
 
     <!-- SVGS -->

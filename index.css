@@ -54,10 +54,10 @@
 }
 @keyframes num2 {
   from {
-    --num1: 0;
+    --num2: 0;
   }
   to {
-    --num1: 35;
+    --num2: 35;
   }
 }
 
