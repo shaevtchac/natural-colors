@@ -4,13 +4,10 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&display=swap"
-      rel="stylesheet"
-    />
-    <title>Title</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,300;0,400;0,700;0,800;1,400&display=swap" rel="stylesheet">
+    <title>Garnier Color Naturals</title>
     <link rel="stylesheet" href="index.css" />
     <script src="index.js" type="module"></script>
   </head>
@@ -24,9 +21,11 @@
                                                                             x
                                                                             x
 -->
-    <div class="bg-[url(img/10.jpg)] bg-cover bg-no-repeat bg-right">
-      ODŻYWIONE WŁOSY
-      PIĘKNIEJSZY KOLOR
+    <div class="bg-[url(img/10.jpg)] bg-cover bg-no-repeat [background-position:80%] p-[5%]">
+      <img src="img/logo.png" alt="logo garnier color naturals" class="max-w-fit w-3/5">
+      <img src="img/11.png" alt="packgaging" class="mt-4">
+      <p class="bg-primary mt-3 text-[1.1em] py-1 px-2 w-fit text-white font-bold">ODŻYWIONE WŁOSY</p>
+      <p class="bg-support ml-8 mt-1 text-[1.1em] py-1 px-2 w-fit text-white font-bold">PIĘKNIEJSZY KOLOR</p>
     </div>
     <!--                                                                    x2xxx
                                                                                 x
@@ -34,29 +33,55 @@
                                                                             x
                                                                             xxxxx
 -->
-    <div class="w-10/12 mx-auto mt-20">
-      <p class="h2">
-        COLOR NATURALS NOWA FORMUŁA
-        4x mocniejsze
-        włosy
-        + 5 olejków
-
-        4x mocniejsze włosy
-        Nowa, lekka 
-formuła, do 100% pokrycia siwych włosów
-
-Odżywka z 5 olejkami
-Jedwabiste, lśniące, odżywione włosy
-
-Do 8 tygodni
-odżywionych włosów
-Trwała, odżywcza
-koloryzacja
-
-Ponad 30 odcieni
-Wybierz idealny
-dla Ciebie!
-      </p>
+    <div class="bg-[url(img/20.jpg)] bg-contain bg-no-repeat bg-right p-[5%]">
+      <p class="h2 mt-10">
+        COLOR NATURALS NOWA FORMUŁA</p>
+      <div
+        class='border-[2px] relative border-primary my-8 py-2 w-min px-4 before:absolute before:h-[2px] before:bg-white before:w-4/5 before:left-1/2 before:-translate-x-1/2 before:-top-[2px] after:absolute after:h-[2px] after:bg-white after:w-4/5 after:left-1/2 after:-translate-x-1/2 after:-bottom-[2px]'>
+        <span class="text-[2em] text-primary font-extrabold leading-none">
+          4X MOCNIEJSZE
+          WŁOSY
+        </span><br>
+        <span class="text-primary text-[1.5em] leading-none">+ 5 OLEJKÓW</span>
+    
+      </div>
+    
+    
+      <div data-animation='fade-from-right'
+        class='relative grid xs:grid-cols-2 sm:grid-rows-2 lg:grid-rows-none xl:grid-rows-2 gap-4 text-center xs:aspect-square'>
+    
+        <img src="img/25kropla.png" alt="oil droplet"
+          class="absolute left-1/2 -translate-x-1/2 top-1/2 -translate-y-1/2 w-1/4">
+        <div class='bg-white rounded-2xl shadow-2xl p-4 group'>
+          <img src='img/21.png' alt='hair icon' class='mx-auto w-1/4 max-w-fit' />
+          <p class='mt-2 font-bold group-hover:text-primary transition-colors duration-500'>4x mocniejsze włosy</p>
+          <p class='xs:text-sm mt-1 md:text-base lg:text-sm xl:text-base'>Nowa, lekka
+            formuła, do 100% pokrycia siwych włosów</p>
+        </div>
+    
+        <div class='bg-white rounded-2xl shadow-2xl p-4 group'>
+          <img src='img/22.png' alt='droplet icon' class='mx-auto w-1/4 max-w-fit' />
+          <p class='mt-2 font-bold group-hover:text-primary transition-colors duration-500'>Odżywka z 5 olejkami</p>
+          <p class='xs:text-sm mt-1 md:text-base lg:text-sm xl:text-base'>Jedwabiste, lśniące, odżywione włosy</p>
+        </div>
+    
+        <div class='bg-white rounded-2xl shadow-2xl p-4 group'>
+          <img src='img/23.png' alt='leaf icon' class='mx-auto w-1/4 max-w-fit' />
+          <p class='mt-2 font-bold group-hover:text-primary transition-colors duration-500'>Do 8 tygodni
+            odżywionych włosów</p>
+          <p class='xs:text-sm mt-1 md:text-base lg:text-sm xl:text-base'>Trwała, odżywcza
+            koloryzacja</p>
+        </div>
+    
+        <div class='bg-white rounded-2xl shadow-2xl p-4 group'>
+          <img src='img/24.png' alt='icon' class='mx-auto w-1/4 max-w-fit' />
+          <p class='mt-2 font-bold group-hover:text-primary transition-colors duration-500'>Ponad 30 odcieni</p>
+          <p class='xs:text-sm mt-1 md:text-base lg:text-sm xl:text-base'>Wybierz idealny
+            dla Ciebie!</p>
+        </div>
+    
+      </div>
+    
     </div>
     <!--                                                                    x3xxx
                                                                                 x
@@ -64,20 +89,23 @@ dla Ciebie!
                                                                                 x
                                                                             xxxxx
 -->
-    <div class="w-10/12 mx-auto mt-20">
-      W OPAKOWANIU:
-      <ul>
-        <li>Krem koloryzujący</li>
-        <li>Odżywka z 5 olejkami</li>
-        <li>Rękawiczki</li>
-        <li>Mleczko utleniające</li>
-        <li>Ulotka informacyjna</li>
-      </ul>
-      <div>1</div>
-      <div>2</div>
-      <div>3</div>
-      <div>4</div>
-      <div>5</div>
+    <div class=" mt-20">
+      <div class="">
+        <img src="img/31opakowanie.png" alt="packgaging" class="mb-4 mx-auto max-h-[350px]">
+        <div class="p-[5%] bg-secondary">
+          <p class="h2 mb-4 text-center">W OPAKOWANIU:</p>
+          
+          <ol class='[counter-reset:mylist] space-y-3 mx-auto w-fit'>
+            <li class='ml-10 before:[content:counter(mylist)] [counter-increment:mylist] before:border-2 before:border-black before:text-[0.9em] before:mt-px before:rounded-full before:aspect-square before:absolute before:h-[1.1lh] before:-ml-10 before:grid before:place-items-center'>Krem koloryzujący</li>
+            <li class='ml-10 before:[content:counter(mylist)] [counter-increment:mylist] before:border-2 before:border-black before:text-[0.9em] before:mt-px before:rounded-full before:aspect-square before:absolute before:h-[1.1lh] before:-ml-10 before:grid before:place-items-center'>Odżywka z 5 olejkami</li>
+            <li class='ml-10 before:[content:counter(mylist)] [counter-increment:mylist] before:border-2 before:border-black before:text-[0.9em] before:mt-px before:rounded-full before:aspect-square before:absolute before:h-[1.1lh] before:-ml-10 before:grid before:place-items-center'>Rękawiczki</li>
+            <li class='ml-10 before:[content:counter(mylist)] [counter-increment:mylist] before:border-2 before:border-black before:text-[0.9em] before:mt-px before:rounded-full before:aspect-square before:absolute before:h-[1.1lh] before:-ml-10 before:grid before:place-items-center'>Mleczko utleniające</li>
+            <li class='ml-10 before:[content:counter(mylist)] [counter-increment:mylist] before:border-2 before:border-black before:text-[0.9em] before:mt-px before:rounded-full before:aspect-square before:absolute before:h-[1.1lh] before:-ml-10 before:grid before:place-items-center'>Ulotka informacyjna</li>
+          </ol>
+        </div>
+        <img src="img/32elements.jpg" alt="packgaging contents">
+      </div>
+ 
     </div>
     <!--                                                                    x   x
                                                                             x   x
@@ -85,13 +113,26 @@ dla Ciebie!
                                                                                 x
                                                                                 x
 -->
-    <div class="w-10/12 mx-auto mt-20">
-      <p class="h2">OZNACZENIA KOLORÓW</p>
-      <div>TON</div>
-      <DIV>REFRLEKS</DIV>
-      <div></div>
-      <div>.</div>
-      <div></div>
+    <div class="w-10/12 mx-auto mt-20 ">
+
+      <p class="h2 text-center mb-10">OZNACZENIA KOLORÓW</p>
+
+      <div class="flex">
+        <div>
+          <div class=" h-4 border-2 border-primary border-b-transparent">
+            <p class="font-bold w-4/5 text-center mx-auto bg-white -mt-3">TON</p>
+          </div>
+          <div></div>
+        </div>
+        <div>.</div>
+        <div>
+          <DIV class=" h-4 border-2 border-primary border-b-transparent">
+            <p class="font-bold w-4/5 text-center mx-auto bg-white -mt-3">REFRLEKS</p>
+          </DIV>
+          <div></div>
+        </div>
+      </div>
+
       <p>jasny brąz, mahoniowo-złocisty</p>
       
       

@@ -4,7 +4,8 @@
 @tailwind utilities;
 
 :root {
-  --num: 5;
+  --num1: 5;
+  --num2: 35;
 }
 
 @layer base {
@@ -18,13 +19,18 @@
     transform: scale(1.1);
   }
   .h2 {
-    @apply text-3xl;
+    @apply text-[1.3em] leading-tight font-bold uppercase;
   }
 }
 
-@property --num {
+@property --num1 {
   syntax: '<integer>';
   initial-value: 5;
+  inherits: false;
+}
+@property --num2 {
+  syntax: '<integer>';
+  initial-value: 35;
   inherits: false;
 }
 
@@ -40,10 +46,18 @@
 /* _____________________________________________________ animations ________________________________________________ */
 @keyframes num1 {
   from {
-    --num: 0;
+    --num1: 0;
   }
   to {
-    --num: 5;
+    --num1: 5;
+  }
+}
+@keyframes num2 {
+  from {
+    --num1: 0;
+  }
+  to {
+    --num1: 35;
   }
 }
 
