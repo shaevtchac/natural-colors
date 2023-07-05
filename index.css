@@ -1,0 +1,75 @@
+@import url(preflight.css);
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --num: 5;
+}
+
+@layer base {
+}
+
+@layer components {
+  button {
+    transition: 300ms ease-in;
+  }
+  button:hover {
+    transform: scale(1.1);
+  }
+  .h2 {
+    @apply text-3xl;
+  }
+}
+
+@property --num {
+  syntax: '<integer>';
+  initial-value: 5;
+  inherits: false;
+}
+
+
+@layer utilities {
+}
+
+/* @font-face {
+  font-family: 'Gotham Book';
+  src: url('fonts/Gotham\ Book\ Font.otf');
+} */
+
+/* _____________________________________________________ animations ________________________________________________ */
+@keyframes num1 {
+  from {
+    --num: 0;
+  }
+  to {
+    --num: 5;
+  }
+}
+
+@keyframes fade-from-left {
+  from {
+    transform: translateX(-20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-from-right {
+  from {
+    transform: translateX(20px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-from-bottom {
+  from {
+    transform: translateY(30px);
+    opacity: 0;
+  }
+}
+
+@keyframes fade-in {
+  from {
+    opacity: 0;
+  }
+}
