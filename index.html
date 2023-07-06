@@ -89,13 +89,13 @@
                                                                                 x
                                                                             xxxxx
 -->
-    <div class=" mt-20">
-      <div class="">
-        <img src="img/31opakowanie.png" alt="packgaging" class="mb-4 mx-auto max-h-[350px]">
-        <div class="p-[5%] bg-secondary">
-          <p class="h2 mb-4 text-center">W OPAKOWANIU:</p>
+    <div class="mt-20 md:mt-0">
+      <div class="md:grid md:grid-cols-2 relative">
+        <img src="img/31opakowanie.png" alt="packgaging" class="mb-4 mx-auto max-h-[350px] md:h-5/6 md:max-h-fit md:absolute md:top-1/2 md:-translate-y-1/2 md:left-[40%]">
+        <div class="p-[5%] bg-secondary self-center md:px-[10%] lg:pl-[20%]">
+          <p class="h2 mb-4 text-center md:text-left">W OPAKOWANIU:</p>
           
-          <ol class='[counter-reset:mylist] space-y-3 mx-auto w-fit'>
+          <ol class='[counter-reset:mylist] space-y-3 mx-auto md:mx-0 w-fit '>
             <li class='ml-10 before:[content:counter(mylist)] [counter-increment:mylist] before:border-2 before:border-black before:text-[0.9em] before:mt-px before:rounded-full before:aspect-square before:absolute before:h-[1.1lh] before:-ml-10 before:grid before:place-items-center'>Krem koloryzujący</li>
             <li class='ml-10 before:[content:counter(mylist)] [counter-increment:mylist] before:border-2 before:border-black before:text-[0.9em] before:mt-px before:rounded-full before:aspect-square before:absolute before:h-[1.1lh] before:-ml-10 before:grid before:place-items-center'>Odżywka z 5 olejkami</li>
             <li class='ml-10 before:[content:counter(mylist)] [counter-increment:mylist] before:border-2 before:border-black before:text-[0.9em] before:mt-px before:rounded-full before:aspect-square before:absolute before:h-[1.1lh] before:-ml-10 before:grid before:place-items-center'>Rękawiczki</li>
@@ -143,31 +143,61 @@
                                                                                 x
                                                                             xxxxx
 -->
-    <div class="w-10/12 mx-auto mt-6">
-      <div class="grid gap-4">
-        <div class="grid grid-cols-2 gap-2 font-bold text-white text-[0.9em] [text-shadow:1px_1px_2px_black] ">
-          <span class="bg-[url(img/51.jpg)] bg-no-repeat bg-auto px-2 py-2 tracking-tight">10 BARDZO BARDZO JASNY BLOND</span>
-          <span class="bg-[url(img/52.jpg)] bg-no-repeat bg-cover px-2 py-2">9 BARDZO JASNY BLOND</span>
-          <span class="bg-[url(img/53.jpg)] bg-no-repeat bg-cover px-2 py-2">8 JASNY BLOND</span>
-          <span class="bg-[url(img/54.jpg)] bg-no-repeat bg-cover px-2 py-2">7 BLOND</span>
-          <span class="bg-[url(img/55.jpg)] bg-no-repeat bg-cover px-2 py-2">6 CIEMNY BLOND</span>
-          <span class="bg-[url(img/56.jpg)] bg-no-repeat bg-cover px-2 py-2">5 JASNY BRĄZ</span>
-          <span class="bg-[url(img/57.jpg)] bg-no-repeat bg-cover px-2 py-2">4 BRĄZ</span>
-          <span class="bg-[url(img/58.jpg)] bg-no-repeat bg-cover px-2 py-2">3 CIEMNY BRĄZ</span>
-          <span class="bg-[url(img/59.jpg)] bg-no-repeat bg-cover px-2 py-2">2 BARDZO CIEMNY BRĄZ</span>
-          <span class="bg-[url(img/510.jpg)] bg-no-repeat bg-cover px-2 py-2">1 CZARNY</span>
+    <div class="w-11/12 mx-auto mt-6">
+      <div class="flex flex-wrap justify-center gap-4">
+        <div class="flex flex-wrap gap-2 justify-center font-bold text-white text-[20px] [text-shadow:1px_1px_2px_black] max-w-[578px]">
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/51.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-1 left-2 tracking-tighter leading-none">10 BARDZO BARDZO JASNY BLOND</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/52.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">9 BARDZO JASNY BLOND</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/53.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">8 JASNY BLOND</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/54.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">7 BLOND</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/55.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">6 CIEMNY BLOND</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/56.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">5 JASNY BRĄZ</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/57.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">4 BRĄZ</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/58.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">3 CIEMNY BRĄZ</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/59.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">2 BARDZO CIEMNY BRĄZ</p>
+          </div>
+          <div class="relative w-[285px] h-[47px]">
+            <img src="img/510.jpg" width="285px" height="47px" alt="">
+            <p class="absolute top-2 left-2">1 CZARNY</p>
+          </div>
         </div>
 
-        <div class="grid grid-cols-2 gap-2 font-bold  text-[0.9em]">
-          <span class="bg-[#e5e5e5] p-2">0 NEUTRALNY</span>
-          <span class="bg-[#83d0f5] p-2">1 POPIELATY</span>
-          <span class="bg-[#ab8cc0] p-2">2 OPALIZUJĄCY</span>
-          <span class="bg-[#fccb8d] p-2">3 ZŁOTY</span>
-          <span class="bg-[#f28d4f] p-2">4 MIEDZIANY</span>
-          <span class="bg-[#a7001c] p-2">5 MAHONIOWY</span>
-          <span class="bg-[#e30613] p-2">6 CZERWONY</span>
-          <span class="bg-[#86c06a] p-2">7 ZIELONY</span>
-          <span class="bg-[#9f4407] p-2">8 MOCCA</span>
+        <div class="flex flex-wrap gap-2 justify-center font-bold  text-[20px] max-w-[578px]">
+          <span class="bg-[#e5e5e5] w-[285px] h-[47px] p-2">0 NEUTRALNY</span>
+          <span class="bg-[#83d0f5] w-[285px] h-[47px] p-2">1 POPIELATY</span>
+          <span class="bg-[#ab8cc0] w-[285px] h-[47px] p-2">2 OPALIZUJĄCY</span>
+          <span class="bg-[#fccb8d] w-[285px] h-[47px] p-2">3 ZŁOTY</span>
+          <span class="bg-[#f28d4f] w-[285px] h-[47px] p-2">4 MIEDZIANY</span>
+          <span class="bg-[#a7001c] w-[285px] h-[47px] p-2">5 MAHONIOWY</span>
+          <span class="bg-[#e30613] w-[285px] h-[47px] p-2">6 CZERWONY</span>
+          <span class="bg-[#86c06a] w-[285px] h-[47px] p-2">7 ZIELONY</span>
+          <span class="bg-[#9f4407] w-[285px] h-[47px] p-2">8 MOCCA</span>
         </div>
       </div>
 
